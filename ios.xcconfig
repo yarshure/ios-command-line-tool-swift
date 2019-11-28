@@ -1,0 +1,20 @@
+//
+//  ios.xcconfig
+//  tcpclient1console
+//
+//  Created by yarshure on 2019/6/10.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+//OTHER_LDFLAGS = $(inherited) -framework CommonCrypto
+//-framework ObjectMapper
+//OTHER_LDFLAGS = $(inherited)  -framework Crypto -framework Sodium -framework IDZSwiftCommonCrypto -framework CocoaAsyncSocket -framework SwiftyJSON -framework MMDB -weak_framework kcp -framework XSocket -framework ObjectMapper -framework Xcon -framework CommonCrypto -framework AxLogger
+//FRAMEWORK_SEARCH_PATHS ="$(iOSOpenDevPath)/frameworks"// $(inherited) 
+//LIBRARY_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/Carthage/Build/Mac"
+DYLIB_COMPATIBILITY_VERSION = "";
+DYLIB_CURRENT_VERSION = "";
+EXECUTABLE_PREFIX = ;
+EXECUTABLE_SUFFIX = ;
+MACH_O_TYPE = mh_execute;
+
